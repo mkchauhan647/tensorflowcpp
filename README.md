@@ -11,8 +11,11 @@ the instructionos is not clear but I have tried my best to put something that wo
 # Information about the version 
 
 tensorflow version: 2.9.0
+
 bazel version: 5.1.1
+
 ubuntu version : 22.04 LTS
+
 python version: 3.10.4 or 3.10.5 (my 3.10.5) It will work on both perhaps.
 
 # BUILD command used in compiling 
