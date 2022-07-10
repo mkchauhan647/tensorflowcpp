@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG -rdynamic CMakeFiles/check.dir/main.cpp.o -o check  -Wl,-rpath,/home/mroot/vscode/tensor ../libtensorflow_cc.so.2.10.0 ../libtensorflow_framework.so.2.10.0 
