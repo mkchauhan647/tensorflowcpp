@@ -19,7 +19,7 @@ ubuntu version : 22.04 LTS
 python version: 3.10.4 or 3.10.5 (my 3.10.5) It will work on both perhaps.
 
 # BUILD command used in compiling 
-bazel build --local_ram_resources=7000 --jobs=5 tensorflow:tensorflow_cc
+ <b>bazel build --local_ram_resources=7000 --jobs=5 tensorflow:tensorflow_cc</b>
 
 Here " --local_ram_resources is used to set the ram for bazel to use and jobs means the number of cpu that can be used to build....
 I have not much ram and cpu so I have set according to mine. If you have then you can set your own.
