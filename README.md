@@ -31,7 +31,7 @@ python version: 3.10.4 or 3.10.5 (my 3.10.5) It will work on both perhaps.
 1. First clone the repository of tensorflow from https://github.com/tensorflow/tensorflow
 2. Install the bazel from https://bazel.build/install/ubuntu and choose the version as above i.e 5.1.1
 3. run the configure as " python configure.py " just hit enter nothing to do.. unless you want cuda, cudann graphic something like that.. 
-4.  Just run the command for .so files <b>bazel build --local_ram_resources=7000 --jobs=5 tensorflow:tensorflow_cc</b>
+4.  run it will make .so files <b>bazel build --local_ram_resources=7000 --jobs=5 tensorflow:tensorflow_cc</b>
 5.  and for headers run <b> bazel build tensorflow:install_headers<b>
 
 Here " --local_ram_resources is used to set the ram for bazel to use and jobs means the number of cpu that can be used to build....
