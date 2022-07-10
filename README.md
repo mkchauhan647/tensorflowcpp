@@ -1,9 +1,17 @@
 # tensorflowcpp
+
+<b>Compiling tensorflow c++ for ubuntu</b>
+
+<b>tensorflow c++ compile from source on ubuntu , linux.</b>
+
 This is tensorflow cpp compiled source on ubuntu...
 
-#Install and usage 
-Just clone the repository and you are good to go... I will provied the include files after structurizing the files.. I don't have 
-much knowledged about cmake including files and libs .. I am in middle phase so ... Thank you and enjoy.
+# Install and usage 
+
+Just clone the repository and you are good to go... <br>
+There is some examples that help you to understand the include and lib files of tensorflow. <br>
+I will provied the include files after structurizing the files.. I don't have 
+much knowledged about cmake including files and libs .. I am in middle phase so ... <br>Thank you and enjoy.
 
 If you want to compile yourself then just follow the instructions below..
 the instructionos is not clear but I have tried my best to put something that work for you !!!
